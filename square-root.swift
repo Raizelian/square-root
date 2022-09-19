@@ -28,6 +28,7 @@ func squareRoot (_ number: Int) throws -> Int {
 }
 
 var number = 10_000
+// try with values such as 14, 64, 0 or anything > 10.000 to see different errors being thrown (or not)
 
 do {
   let result = try squareRoot(number)
